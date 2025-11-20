@@ -26,7 +26,7 @@ solving them?
 a. What did the data show? What are your takeaways?
     For the most part the results showed a direct relationship between area and price.
      The more expensive the houses the bigger the area. 
-    However, the 11 million dollar houses average area was bigger which happened because of one house skewing the rest of the data. 
+    However, the 11 million dollar houses average only has 1 value and for 10 million the area was much bigger then 12 & 11 which happened because of one house skewing the rest of the data. 
 b. Describe some possible limitations to your research.
     Some limitations is that each price level has different amounts of houses. 
     The less houses the less accurate, making comparing them less reliable.
