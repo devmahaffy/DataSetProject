@@ -1,0 +1,20 @@
+a. What was your general motivation for exploring this topic (i.e.
+your dataset choice)?
+    I love real estate and looking at houses. When scrolling I found this and found it very intresting since it compared price, area, floors, and even heating. Its all about figuring out what influences property values which is something I wanted to learn more about. 
+b. Briefly describe how the data was collected in your chosen
+dataset.
+    This data was collected by surveying houses and getting information on the factors included in the data set. 
+c. Which question did you end up exploring further?
+    I ended up exploring the average area size per price By millions (10,9,8,7,6...)
+2. [4] Process
+a. How did you go about answering your question? What specific
+pieces of info did you extract from your dataset and how did you
+use that data to answer your question?
+    
+b. What difficulties did you run into and how did you approach
+solving them?
+3. [3] Results
+a. What did the data show? What are your takeaways?
+b. Describe some possible limitations to your research.
+c. Given more time and resources, what additional implementation
+of your question would you be interested to explore?
