@@ -9,9 +9,9 @@ public class DataSetProject {
         File f = new File(pathname);
         int priceIndex = 0;
         int areaIndex = 1;
+        //set up two arrays one that will keep track of the area at the corresponding index and one that will count how many houses are checked also in the corresponding index
         double[] numHousesPerMillion = new double[13];
         double[] areaTotalPerMillion = new double[13];
-        int max = 12000000;
         int milIndex = 12;
         for(int i = 12000000; i>0; i-=1000000){
             Scanner sc = new Scanner(f);
