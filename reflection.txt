@@ -1,20 +1,36 @@
 a. What was your general motivation for exploring this topic (i.e.
 your dataset choice)?
-    I love real estate and looking at houses. When scrolling I found this and found it very intresting since it compared price, area, floors, and even heating. Its all about figuring out what influences property values which is something I wanted to learn more about. 
+    I love real estate and looking at houses. 
+    When scrolling I found this and found it very intresting since it compared price, area, floors, and even heating. 
+    Its all about figuring out what influences property values which is something I wanted to learn more about. 
 b. Briefly describe how the data was collected in your chosen
 dataset.
     This data was collected by surveying houses and getting information on the factors included in the data set. 
 c. Which question did you end up exploring further?
-    I ended up exploring the average area size per price By millions (10,9,8,7,6...)
+    I ended up exploring the average area size per price By millions (12,11,10,9,8,7,6...)
 2. [4] Process
 a. How did you go about answering your question? What specific
 pieces of info did you extract from your dataset and how did you
 use that data to answer your question?
-    
+    To answer my question I pulled data from the column tracking price and area. 
+    I then assigned the area to a spot in the array that corresponded to the price. 
+    In a seperate array it counted how many houses per each price and set to the corresponding index.
+    Then it averaged the values at the same index in the two arrays. 
 b. What difficulties did you run into and how did you approach
 solving them?
+    After finishing my code only the first price level (12 million) would work. 
+    Since I was going through the data set multiple times the while loop checking next line only would run once since it had made it to the end of the data set.
+    To fix this I could have changed my while and for loops but instead I realized if I created a new scanner each time it was the same as resetting it. 
+    After doing this it worked.  
 3. [3] Results
 a. What did the data show? What are your takeaways?
+    For the most part the results showed a direct relationship between area and price.
+     The more expensive the houses the bigger the area. 
+    However, the 11 million dollar houses average area was bigger which happened because of one house skewing the rest of the data. 
 b. Describe some possible limitations to your research.
+    Some limitations is that each price level has different amounts of houses. 
+    The less houses the less accurate, making comparing them less reliable.
+    Another possible limitation could be the unaccounted for changing value of houses due to higher demand and the state of the economy. 
 c. Given more time and resources, what additional implementation
 of your question would you be interested to explore?
+    I would have liked to not only look at the area of the house but also the total area of the whole plot of land.
