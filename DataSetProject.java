@@ -14,7 +14,7 @@ public class DataSetProject {
         int max = 12000000;
         int milIndex = 12;
         for(int i = 12000000; i>0; i-=1000000){
-             Scanner sc = new Scanner(f);
+            Scanner sc = new Scanner(f);
             String [] header = sc.nextLine().split(",");
         while(sc.hasNextLine()){
              ArrayList<String> line = new ArrayList<>(Arrays.asList(sc.nextLine().split(",")));
